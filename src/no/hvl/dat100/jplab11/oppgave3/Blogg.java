@@ -71,7 +71,11 @@ public class Blogg {
 	
 	public String toString() {
 		
-		
+		String string = nesteledige + "\n";
+		for (int i = 0; i < nesteledige; i++) {
+			string += innleggtabell[i].toString();
+		}
+		return string;
 	}
 
 	// valgfrie oppgaver nedenfor
